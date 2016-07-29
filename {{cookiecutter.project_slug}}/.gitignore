@@ -85,8 +85,10 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
+/data/external
+/data/interim
+/data/processed
+/data/raw
 
 # exclude external models from source control
 /src/external/
-

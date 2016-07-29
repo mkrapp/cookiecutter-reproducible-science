@@ -11,6 +11,7 @@ Project Organization
     ├── LICENSE
     ├── README.md
     ├── bin
+    ├── config
     ├── data
     │   ├── external
     │   ├── interim
@@ -24,4 +25,5 @@ Project Organization
         ├── data
         ├── external
         ├── models
+        ├── tools
         └── visualization
