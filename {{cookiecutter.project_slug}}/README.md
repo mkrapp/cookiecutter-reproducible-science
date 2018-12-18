@@ -9,6 +9,8 @@ Project Organization
     .
     ├── AUTHORS.md
     ├── LICENSE
+    ├── make.sh
+    ├── Pipfile
     ├── README.md
     ├── bin
     ├── config
