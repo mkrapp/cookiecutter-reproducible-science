@@ -3,7 +3,8 @@
 RUN_IN_PIPENV="pipenv run"
 
 experiment () {
-    export PYTHONPATH=src
+    export EXPERIMENT_ROOT=$PWD
+    export PYTHONPATH=$PWD/src
     $RUN_IN_PIPENV jupyter notebook --notebook-dir=notebooks
 }
 
