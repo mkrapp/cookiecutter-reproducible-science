@@ -5,7 +5,7 @@ RUN_IN_PIPENV="pipenv run"
 experiment () {
     export EXPERIMENT_ROOT=$PWD
     export PYTHONPATH=$PWD/src
-    $RUN_IN_PIPENV jupyter notebook --notebook-dir=notebooks
+    $RUN_IN_PIPENV jupyter lab
 }
 
 create_env () {

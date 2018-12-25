@@ -6,4 +6,4 @@ name = "pypi"
 [packages]
 
 [dev-packages]
-jupyter = "*"
+jupyterlab = "*"
