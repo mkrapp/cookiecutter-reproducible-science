@@ -6,7 +6,7 @@ A fork from Mario Krapp's boilerplate for Python data science projects,
 
 The original derives from [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science): *A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.*
 
-Here I reintroduce some elements according to my own needs.
+Here I reintroduce some elements according to my own needs. J.M.C Teixeira's [Python project skeleton](https://github.com/joaomcteixeira/python-project-skeleton) is an important source of concepts.
 
 Requirements
 ------------
@@ -26,8 +26,6 @@ Project Structure
 ├── AUTHORS.md
 ├── LICENSE
 ├── README.md
-├── bin                <- Your compiled model code can be stored here (not tracked by git)
-├── config             <- Configuration files, e.g., for doxygen or for your model if needed
 ├── data
 │   ├── external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
