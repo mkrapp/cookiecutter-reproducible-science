@@ -81,6 +81,15 @@ target/
 # Pycharm
 .idea
 
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+
 # TeX/LaTeX
 *.aux
 *.bbl
@@ -88,11 +97,12 @@ target/
 *.synctex.gz
 *.xwm
 
-# IPython NB Checkpoints
-.ipynb_checkpoints/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-# exclude compiled binaries
-bin/
+# IPython
+profile_default/
+ipython_config.py
 
 # exclude data from source control by default
 /data/external
