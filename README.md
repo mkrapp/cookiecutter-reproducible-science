@@ -1,7 +1,12 @@
 Reproducible Science
 ====================
 
-A boilerplate for reproducible and transparent science with close resemblances to the philosophy of [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science): *A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.*
+A fork from Mario Krapp's boilerplate for Python data science projects, 
+[Reproducible Science](https://github.com/miguelarbesu/cookiecutter-reproducible-science). 
+
+The original derives from [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science): *A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.*
+
+Here I reintroduce some elements according to my own needs.
 
 Requirements
 ------------
@@ -11,7 +16,7 @@ Usage
 -----
 To start a new science project:
 
-`cookiecutter gh:mkrapp/cookiecutter-reproducible-science`
+`cookiecutter gh:miguelarbesu/cookiecutter-reproducible-science`
 
 Project Structure
 -----------------
@@ -37,10 +42,8 @@ Project Structure
     ├── external       <- Any external source code, e.g., pull other git projects, or external libraries
     ├── models         <- Source code for your own model
     ├── tools          <- Any helper scripts go here
-    └── visualization  <- Scripts for visualisation of your results, e.g., matplotlib, ggplot2 related.
+    └── visualization  <- Scripts for visualization of your results, e.g., matplotlib, ggplot2 related.
 ```
-
-Check out my latest research project, which successfully applied the `cookiecutter` philosophy: [SEMIC: an efficient surface energy and mass balance model applied to the Greenland ice sheet](https://gitlab.pik-potsdam.de/krapp/semic-project).
 
 License
 -------
